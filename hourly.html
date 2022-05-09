@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Include/css/style.css"/>
+    <link rel="stylesheet" href="Include/css/home.css"/>
+    <title>Weathero</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="hamburger" aria-pressed="false">
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>Menu</div>
+        </div>
+        <ul id="menulijst" aria-expanded="false" class="hidden">
+            <li><a href="">Daily</a></li>
+            <li><a href="#">Hourly</a></li>
+            <li><a href="#">Review</a></li>
+            <li><a href="options">Options</a></li>
+        </ul>
+        <a class="logo" href=""><img src="Include/img/other/logo.svg" alt="logo"></a>
+    </nav>
+</header>
+<main>
+    <section class="top">
+        <h1 class="location">East Flanders - Ghent</h1>
+        <img src="Include/img/cloudness/clear-day.svg" alt="">
+        <h2 class="thisHourTemp">°C</h2>
+        <h3 class="description"></h3>
+    </section>
+
+    <section class="bar">
+        <label>
+            <span class="slidevalue">16h</span>
+            <input class="slideBar" type="range" min="0" max="100" value="0" list="tickmarks">
+            <datalist id="tickmarks">
+                <option class="hourBar" value="0" label="NOW"></option>
+                <option class="hourBar" value="25%" label="12h"></option>
+                <option class="hourBar" value="50%" label="24h"></option>
+                <option class="hourBar" value="75%" label="32h"></option>
+                <option class="hourBar" value="100%" label="48h"></option>
+            </datalist>
+        </label>
+    </section>
+
+
+
+    <section class="hourly">
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+        <div class="displayBlock">
+            <div><p class="time">XX:00</p><p class="day">XXX</p></div>
+            <img src="Include/img/other/not-available.svg" alt="sunny day">
+            <p class="deg">XX°C</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+
+</footer>
+<script src="Include/js/main_js/hourly.js" type="module"></script>
+<script src="Include/js/modules/header.js"></script>
+<script src="Include/js/modules/scrollbar.js" type="module"></script>
+</body>
+</html>

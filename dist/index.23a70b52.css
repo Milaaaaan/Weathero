@@ -1,0 +1,203 @@
+main {
+  margin: 0 2rem;
+}
+
+.hourly {
+  max-width: 50rem;
+  scroll-behavior: smooth;
+  flex-wrap: nowrap;
+  gap: 1px;
+  margin: 0 auto 5rem;
+  padding: 0 calc(50% - 32px);
+  display: flex;
+  overflow-x: scroll;
+}
+
+.hourly .selection {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.hourly .selection div {
+  cursor: pointer;
+}
+
+.now {
+  color: #000;
+  background: var(--main) !important;
+}
+
+.hourly .displayBlock {
+  border: solid 2px var(--bg-lighter);
+  background: var(--bg-lighter);
+  border-radius: 5px;
+}
+
+.hourly .displayBlock:hover {
+  cursor: pointer;
+  border: solid 2px var(--light);
+}
+
+.hourly div img {
+  width: 64px;
+}
+
+.hourly div p {
+  margin: 0;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.daily {
+  flex-wrap: wrap;
+  place-content: stretch center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+  display: flex;
+}
+
+.daily .selection {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.daily .displayDay {
+  width: 13rem;
+  border: solid 2px var(--bg-lighter);
+  background: var(--bg-lighter);
+  border-radius: 5px;
+  flex-flow: wrap;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.daily .displayDay:hover {
+  cursor: pointer;
+  border: solid 2px var(--light);
+}
+
+.daily div img {
+  width: 64px;
+}
+
+.daily div p {
+  margin: 0;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.selection a:hover:not(.now) {
+  background: var(--bg-lighter);
+}
+
+.selection a:first-child {
+  border: solid 2px var(--light);
+  border-radius: 1rem 0 0 1rem;
+  padding: .5rem 1rem;
+}
+
+.selection a:last-child {
+  border: solid 2px var(--light);
+  border-radius: 0 1rem 1rem 0;
+  padding: .5rem 1rem;
+}
+
+.selection a {
+  cursor: pointer;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+  text-decoration: none;
+  display: flex;
+}
+
+.details {
+  flex-direction: column;
+  margin-top: 3rem;
+  display: flex;
+}
+
+.data div {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.details .data {
+  border-right: 4px solid var(--main);
+  border-left: 4px solid var(--main);
+}
+
+hr {
+  background: var(--main);
+  height: 2px;
+  width: 80%;
+  border: none;
+  margin: 0 auto;
+}
+
+.description {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+img {
+  width: 64px;
+}
+
+@media (min-width: 650px) {
+  .details {
+    flex-direction: row;
+  }
+
+  .description {
+    width: 33%;
+  }
+
+  .details .data {
+    width: 66%;
+    border-left: none;
+    border-right: 4px solid var(--main);
+    margin: 0 2rem 0 0;
+  }
+}
+
+.degNight {
+  color: #6e6e6e;
+}
+
+.hourly div div p:last-child:not(.degNight) {
+  font-size: medium;
+}
+
+iframe {
+  width: 500px;
+  height: 600px;
+}
+
+@media (min-width: 650px) {
+  .hourly .displayBlock {
+    width: 5rem;
+    flex-direction: column;
+    flex-grow: initial;
+  }
+}
+
+@media (min-width: 750px) {
+  .daily .displayDay {
+    max-width: 7rem;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 3rem;
+  }
+}
+
+/*# sourceMappingURL=index.23a70b52.css.map */

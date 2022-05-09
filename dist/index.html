@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.698f9aa9.css">
+    <link rel="stylesheet" href="/index.23a70b52.css">
+    <title>Weathero</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="hamburger" aria-pressed="false">
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>Menu</div>
+        </div>
+        <ul id="menulijst" aria-expanded="false" class="hidden">
+            <li><a href="#">Daily</a></li>
+            <li><a href="hourly">Hourly</a></li>
+            <li><a href="#">Review</a></li>
+            <li><a href="options">Options</a></li>
+        </ul>
+        <a class="logo" href=""><img src="/logo.d703049d.svg" alt="logo"></a>
+    </nav>
+</header>
+<main>
+    <section class="top">
+        <h1 class="location">East Flanders - Ghent</h1>
+        <img src="/clear-day.e832e9d5.svg" alt="">
+        <h2 class="thisHourTemp">°C</h2>
+        <h3 class="description"></h3>
+    </section>
+
+
+    <section class="graph">
+
+                <canvas id="tempChart" width="400" height="400"><a href="#data"></a></canvas>
+
+                <canvas id="windChart" width="400" height="400"></canvas>
+
+    </section>
+
+
+    <section id="data" class="daily">
+        <div class="displayDay now">
+            <div><p class="day">XXX</p></div>
+            <img src="/not-available.8d9de1aa.svg" alt="sunny day">
+            <div><p class="deg">XX°C</p>
+                <p class="degNight">XX°C</p></div>
+        </div>
+        <div class="displayDay">
+            <div><p class="day">XXX</p></div>
+            <img src="/not-available.8d9de1aa.svg" alt="sunny day">
+            <div><p class="deg">XX°C</p>
+                <p class="degNight">XX°C</p></div>
+        </div>
+        <div class="displayDay">
+            <div><p class="day">XXX</p></div>
+            <img src="/not-available.8d9de1aa.svg" alt="sunny day">
+            <div><p class="deg">XX°C</p>
+                <p class="degNight">XX°C</p></div>
+        </div>
+        <div class="displayDay">
+            <div><p class="day">XXX</p></div>
+            <img src="/not-available.8d9de1aa.svg" alt="sunny day">
+            <div><p class="deg">XX°C</p>
+                <p class="degNight">XX°C</p></div>
+        </div>
+        <div class="displayDay">
+            <p class="day">XXX</p>
+            <img src="/not-available.8d9de1aa.svg" alt="sunny day">
+            <div><p class="deg">XX°C</p>
+                <p class="degNight">XX°C</p></div>
+        </div>
+        <div class="displayDay">
+            <p class="day">XXX</p>
+            <img src="/not-available.8d9de1aa.svg" alt="sunny day">
+            <div><p class="deg">XX°C</p>
+                <p class="degNight">XX°C</p></div>
+        </div>
+        <div class="displayDay">
+            <p class="day">XXX</p>
+            <img src="/not-available.8d9de1aa.svg" alt="sunny day">
+            <div><p class="deg">XX°C</p>
+                <p class="degNight">XX°C</p></div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="details"><div class="data">
+            <div><p>Temperature</p>
+                <div>
+                    <p>11°C</p>
+                    <img src="/thermometer.8626ea9e.svg" alt="">
+                </div>
+            </div>
+            <hr>
+            <div><p>Windspeed</p>
+                <div>
+                    <p>15km/h</p>
+                    <img src="/wind.55863f2b.svg" alt="">
+                </div>
+            </div>
+            <hr>
+            <div><p>Humidity</p>
+                <div>
+                    <p>35%</p>
+                    <img src="/humidity.2050f236.svg" alt="">
+                </div>
+            </div>
+            <hr>
+            <div><p>UV - index</p>
+                <div>
+                    <p>1.2</p>
+                    <img src="/uv-index.33888951.svg" alt="">
+                </div>
+            </div>
+            <hr>
+            <div><p>Pressure</p>
+                <div>
+                    <p>1012</p>
+                    <img src="/barometer.daaf61de.svg" alt="">
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="description">
+            <img src="/not-available.8d9de1aa.svg" alt="">
+            <h3>Few Clouds</h3>
+            <p>"Widespread fog with a visibility of maximum 500 m is expected and
+                visibility may locally be less than 200 m. Keep sufficient distance
+                with the car and adjust your speed. Be careful."
+            </p>
+            <h4>Event</h4>
+            <p>Yellow warning for fog</p>
+            <p>THU 23:00 - FRI 08:00</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+
+</footer>
+<script src="/index.6bcafc66.js" defer=""></script>
+<script src="/index.d7ad64d1.js"></script>
+</body>
+</html>
